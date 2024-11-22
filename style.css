@@ -160,7 +160,7 @@ p{
     margin-top: 80px;
     margin-left: 50px;
     background-color: transparent;
-    border-color: rgb(192, 191, 191);
+    border-color: rgb(221, 217, 217);
     cursor: pointer;
 }
 
@@ -170,7 +170,7 @@ p{
     width: 60px;
     margin-left: 615px;
     background-color: transparent;
-    border-color: rgb(192, 191, 191);
+    border-color: rgb(221, 217, 217);
     cursor: pointer;
 }
 .comunidades{
@@ -186,13 +186,14 @@ p{
 .c{
    display: flex;
    flex-direction: column;
-   background-color: rgb(192, 189, 189);
+   background-color: rgb(221, 217, 217);
    height: 117px;
    border-style: solid;
    border-color: white;
+   width: 107px;
    
 }
-.lados{
+.lado{
     display: table-column;
 }
 .img3{
@@ -225,12 +226,12 @@ p{
 
 }
 .fi{
-border-radius: 5px;
-color:rgb(33, 103, 182) ;
-width: 76px;
-margin-left: 21px;
-cursor: pointer;
-background-color: transparent;
+    border-radius: 5px;
+    color:rgb(33, 103, 182) ;
+    width: 76px;
+    margin-left: 21px;
+    cursor: pointer;
+    background-color: transparent;
 }
 .vt{
     margin-left:-9px;
@@ -239,9 +240,9 @@ background-color: transparent;
     text-decoration: underline;
     cursor: pointer;
 }
-.info{
-   color: black;
-   list-style: none;
+.informações{
+    color: black;
+    list-style: none;
     display: flex;
     flex-direction:column;
     margin-left: -15px;
@@ -249,22 +250,22 @@ background-color: transparent;
    
 }
 .niver{
-    background-color: rgba(33, 103, 182, 0.479);
+    background-color: rgb(74, 145, 228);
     height: 50px;
     margin-top:-20px;
 }
 .qse{
-    background-color: rgba(33, 103, 182, 0.479);
+    background-color: rgba(74, 145, 228);
     height: 50px;
     margin-top: -43px;
 }
 .relac{
-    background-color: rgba(209, 233, 233, 0.521);
+    background-color: rgba(135, 186, 252, 0.521);
     height: 50px;
     margin-top: -43px;
 }
 .br{
-    background-color: rgba(210, 233, 233, 0.521);
+    background-color: rgba(135, 186, 252, 0.521);
     height: 50px;
     margin-top: -43px;
 }
@@ -284,7 +285,7 @@ background-color: transparent;
     margin-bottom: -31px;
    
 }
-.car{
+.yes{
     color: black;
     width: 10px;
     font-size: small;
