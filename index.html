@@ -1,49 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orkut - Perfil</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <img class="img" src="data:image/jpeg;base64,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">
-        <ul class="Lista">
-            <li> Inicio </li>
-            <li> Perfil </li>
-            <li> Página de Recados </li>
-            <li> Amigos </li>
-            <li> Comunidades </li>
+    <div class="Menu">
+       
+        <center>
+        <ul>
+            <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D944/production/_91402655_7dab350f-e25a-4904-9fa8-711549e4e9d7.jpg.webp" alt="">
+            <li>Início</li>
+            <li>Perfil</li>
+            <li>Página de recados</li>
+            <li>Amigos</li>
+            <li>Comunidades</li>
+             <li class="sair">Sair</li>
+            <input class="pesquisa" type="text" placeholder="pesquisa do orkut" ><p class="pe">&#128269;</p>
+        </ul>
+     
+           
+       
+    </center>
+     </div>
+     <div class="divs">
+    <div class="cantinho">
+        <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZavhUmNK7BLTVajhjXOpehmWzQyHbHeFhA&s" alt="">
+        <h3>Paola </h3>
+        <h4>Cassilha Souza</h3>
+       
+        <p>Feminino</p>
+        <p>Casada</p>
+        <p>Morando no Canadá</p>
+        <p>Advogada Aposentada</p>
+
+       <ul class="itens">
+            <li class="l"> editar perfil &#128394;</li>
+            <li class="l"> perfil &#128100;</li>
+            <li class="l"> recados &#128221;</li>
+            <li class="l"> álbum &#128194;</li>
+            <li class="l"> vídeos &#128253;</li>
+            <li class="l"> feeds &#128250;</li>
+            <li class="l"> listas &#128209;</li>
+            <li class="l"> mensagens &#128236;</li>
+            <li class="l"> depoimentos &#127760;</li>
+            <li class="l"> configurações &#128736;</li>
+       </ul>
+    </div>
+
+    <div class="importante">
+         <h1>Paola Cassilha Souza</h1>
+         <div class="tit"><p class="i" > Início ></p> <p>Meu perfil</p></div>
+         
+         <div class="frase"><p>A vida reserva surpresas maravilhosas para todos aqueles que cultivam a gratidão!</p> <input class="bott" type="button" value="editar"></div>
+
+         <ul class="car">
+            <li>recados &#128221; 25</li>
+            <li>fotos  &#128247; 6</li>
+            <li>vídeos &#127909; 1</li>
          </ul>
+            <div class="social"> social</div>
+         <div class="prin">
+           
+            <ul class="info">
+                <li class="niver"> aniversário:   10 de julho de 1946</li>
+                <li class="relac"> relacionamento:  casado(a) </li>
+                <li class="qse"> quem sou eu: uma vó amorosa, e uma profissional dedicada.</li>
+                <li class="br"> país: Brasil</li>
+            </ul>
+         </div>
+       
+    </div>
+          <div class="lados">
+
+    <div class="amigos">
+       <div class="ami"> <p class="a">meus amigos</p> <p class="num">(10)</p></div>
+       <p class="qtd">você tem 10 amigos</p>
+       <input class="bot" type="button" value="adicionar amigos">
     </div>
 
-    <div class="container">
-        <div class="profile">
-            <div class="profile-photo">
-                <img src="foto.jpg" alt="Foto de perfil">
-            </div>
-            <div class="profile-info">
-                <h1>Ana Letícia Loubak</h1>
-                <p class="section-title">Feminino, solteiro(a) - Brasil</p>
-                <p class="section-title">Quem sou eu:</p>
-                <p class="section-content">Jornalista carioca que ama livros, músicas e filmes.</p>
-                <p class="section-title">Relacionamento:</p>
-                <p class="section-content">Solteiro(a)</p>
-            </div>
-        </div>
+    <div class="comunidades">
+        <div class="com"> <p class="a">minhas comunidades</p> <p class="num">(3)</p></div>
+        <Div class="grupos">
 
-        <div class="side-section">
-            <h2>Minhas Comunidades</h2>
-            <div class="communities">
-                <img src="chocolate.jpg" alt="Eu Amo Chocolate">
-                <span>EU AMO CHOCOLATE (720)</span>
-            </div>
-            <div class="communities">
-                <img src="acordar.jpg" alt="Eu Odeio Acordar Cedo">
-                <span>Eu Odeio Acordar Cedo (20765)</span>
-            </div>
-        </div>
+        <div class="c"><img class="img3" src="https://images.squarespace-cdn.com/content/v1/5ddad053cf1ec60b307e8784/b640070a-9d53-419f-b6db-41ad878127e2/Canada+map.png">  <p class="muni"> BRASILEIROS MORANDO NO CANADÁ</p>  </div>
+        <div class="c"><img class="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfKh6duA-uWBk5kLwXD-r7Ge9yB16csVfzVU0rgfk5BHGz3VUBGEcAWos8gY7EmFOAyg8&usqp=CAU">   <p class="me"> MULHERES EMPREENDEDORAS</p>  </div>
+        <div class="c"><img class="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqdsBLrRrLBYlPZ38-AzWvwkzgyAA2sDNOUw&s">  <p class="muni"> EU AMO VIAGENS</p>  </div>
+
+       </Div>
+      <div class="f"> <p class="vt">ver todos</p> <input class="fi" type="button"  value="gerenciar"></div>
     </div>
+           </div>
+   </div>
 </body>
 </html>
